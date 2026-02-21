@@ -4,7 +4,7 @@ import { productos } from '../data/productos'
 
 const Catalogo = () => {
     return (
-        <section className='py-2 flex flex-col items-center'>
+        <section id='catalogo' className='py-2 flex flex-col items-center'>
             <div>
                 <p className=''>NUESTRO CATALOGO</p>
                 <button className='border'>Ver todos los productos</button>

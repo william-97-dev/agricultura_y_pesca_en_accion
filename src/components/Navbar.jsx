@@ -42,10 +42,9 @@ const Navbar = () => {
                 }`}
             >
                 <div className='flex flex-col items-center justify-center h-full gap-8 text-white text-2xl'>
-                    <button onClick={()=> handleScroll('home')}>Inicio</button>
-                    <button onClick={()=> handleScroll('about')}>Sobre mi</button>
-                    <button onClick={()=> handleScroll('projects')}>Proyectos</button>
-                    <button onClick={()=> handleScroll('contact')}>Contacto</button>
+                    <button onClick={()=> handleScroll('inicio')}>Inicio</button>
+                    <button onClick={()=> handleScroll('catalogo')}>Catálogo</button>
+                    <button onClick={()=> handleScroll('envios')}>Envíos</button>
                 </div>
             </div>
         </>

@@ -3,7 +3,7 @@ import camionEnvio from "../assets/icons/iconEnvio.svg"
 
 const InfoEnvios = () => {
     return (
-        <section className='p-4'>
+        <section id='envios' className='p-4'>
             <div className='flex flex-col'>
                 <div>
                     <img src={camionEnvio} alt="Icono de carro para envios" className='h-12' />

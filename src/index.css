@@ -2,11 +2,6 @@
 @import "./variables.css";
 @import "./assets/fonts/fuente_global.css";
 
-/*.menu-nav {
-    background: var(--primary-blue);
-}*/
-
-/**/
 @keyframes carousel {
     from { transform: translateX(0); }
     to { transform: translateX(-50%); }
@@ -14,4 +9,8 @@
 
 .animate-carousel {
     animation: carousel 20s linear infinite;
+}
+
+html {
+    scroll-behavior: smooth;
 }

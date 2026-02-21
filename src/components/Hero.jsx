@@ -3,7 +3,7 @@ import imagenHero from "../assets/images/imgHero.jpeg"
 
 const Hero = () => {
     return (
-        <main className='flex items-center justify-center min-h-screen bg-cover bg-center '
+        <main id='inicio' className='flex items-center justify-center min-h-screen bg-cover bg-center '
             style= {{ backgroundImage: `url(${imagenHero}` }}
         >
             <div className='absolute inset-0 bg-black/60 z-0'></div>
