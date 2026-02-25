@@ -8,6 +8,7 @@ import Mapa from './components/Mapa'
 import InfoEnvios from './components/InfoEnvios'
 import Galeria from './components/Galeria'
 import RedesSociales from './components/RedesSociales'
+import ButtonWhatsApp from './components/ButtonWhatsApp'
 import Footer from './components/Footer'
 
 
@@ -24,6 +25,7 @@ function App() {
       <InfoEnvios/>
       <Galeria/>
       <RedesSociales/>
+      <ButtonWhatsApp />
       <Footer/>
     </>
   )
