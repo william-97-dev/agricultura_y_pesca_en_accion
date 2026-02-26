@@ -9,6 +9,7 @@ import InfoEnvios from './components/InfoEnvios'
 import Galeria from './components/Galeria'
 import RedesSociales from './components/RedesSociales'
 import ButtonWhatsApp from './components/ButtonWhatsApp'
+import ButtonFlecha from './components/ButtonFlecha'
 import Footer from './components/Footer'
 
 
@@ -26,6 +27,7 @@ function App() {
       <Galeria/>
       <RedesSociales/>
       <ButtonWhatsApp />
+      <ButtonFlecha />
       <Footer/>
     </>
   )
