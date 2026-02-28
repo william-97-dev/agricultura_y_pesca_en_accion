@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import "./variables.css";
 @import "./assets/fonts/fuente_global.css";
 
 @keyframes carousel {
