@@ -2,11 +2,11 @@ import React from 'react'
 
 const Mapa = () => {
     return (
-        <section className='py-6'>
-            <div className='flex flex-col px-4 text-center'>
-                <article className='p-2 mb-2'>
-                    <h4 className='font-bold'>Lugar para disfrutar en familia.</h4>
-                    <p>Rio Lempa, Puente Cuscatlan, El Salvador.</p>
+        <section className='py-6 lg:py-16 bg-[#6E6E6E]'>
+            <div className='flex flex-col px-4 lg:w-6xl m-auto lg:p-2 text-center'>
+                <article className='mb-2'>
+                    <h4 className='font-bold lg:text-3xl lg:pb-2 text-[#01257D]'>LUGAR PARA DISFRUTAR EN FAMILIA.</h4>
+                    <p>Rio Lempa, Puente Cuscatlán, El Salvador.</p>
                 </article>
 
                 <iframe src="
@@ -15,6 +15,7 @@ const Mapa = () => {
                     allowfullscreen=""
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"
+                    className='lg:h-72'
                 >
                 </iframe>
             </div>
