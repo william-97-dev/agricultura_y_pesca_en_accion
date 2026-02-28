@@ -20,7 +20,7 @@ const Navbar = () => {
                         <img src={miLogo} alt="Logo de Agricultura y Pesca" className='h-5 lg:h-7' />
                     </div>
                     {/**MENU DESKTOP */}
-                    <div className='hidden lg:flex lg:items-center gap-8 font-medium lg:text-2xl text-[#6ACFC7]'>
+                    <div className='hidden lg:flex lg:items-center gap-8 font-medium lg:text-2xl text-[#6acfc7]'>
                         <button onClick={() => handleScroll("inicio")} className='cursor-pointer'>Inicio</button>
                         <button onClick={() => handleScroll("catalogo")} className='cursor-pointer'>Catálogo</button>
                         <button onClick={() => handleScroll("envios")} className='cursor-pointer'>Envíos</button>
