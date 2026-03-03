@@ -7,7 +7,7 @@ const RedesSociales = () => {
             <div className='lg:w-xl mb-4'>
                 <h4 className='font-bold text-[#01257D] lg:mb-4 lg:text-2xl'>Agricultura y Pesca en Acción</h4>
                 <p>
-                    Maestro artesano con más de 30 años de experiencia en la
+                    Maestro artesano con más de 20 años de experiencia en la
                     elaboración de atarrayas y trasmallos, combinando tradición,
                     precisión y materiales de alta calidad.
                 </p>
