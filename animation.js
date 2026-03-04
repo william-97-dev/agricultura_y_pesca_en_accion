@@ -32,7 +32,7 @@ export const animationSocialMedia = (socialMedia) => {
 export const animationTitle = (h1Principal) => {
     gsap.fromTo(h1Principal, {
         y: -100,
-        opacity: 0,
+        opacity: 0
     },//Estado inicial
         {
             y: -0,
@@ -44,16 +44,17 @@ export const animationTitle = (h1Principal) => {
 }
 
 export const animationNav = (listNav) => {
-    gsap.fromTo(listNav, {
+    gsap.fromTo(listNav.children, {
         y: -100,
         opacity: 0,
-        stagger: 1 //podemos usar stagger si hay varios elementos para entrar uno por uno
+         //podemos usar stagger si hay varios elementos para entrar uno por uno
     },//Estado inicial
         {
             y: -0,
             opacity: 1,
             ease: "power3.out",
-            duration: 1.5
+            duration: 1,
+            stagger: 0.20
         }//Estado final
     )
 }
