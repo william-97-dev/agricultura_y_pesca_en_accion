@@ -1,4 +1,5 @@
 import gsap from "gsap";
+import SplitType from "split-type";
 
 export const animationLogo = (logo) => {
     gsap.fromTo(logo, {
@@ -29,17 +30,26 @@ export const animationSocialMedia = (socialMedia) => {
         })
 }
 
-export const animationTitle = (h1Principal) => {
-    gsap.fromTo(h1Principal, {
-        y: -100,
+export const animationTitle = (h1Title) => {
+    const text = new SplitType(h1Title, { types: 'words, chars' })
+
+    gsap.fromTo(text.chars, {
+        y: () => gsap.utils.random(-150, 150),
+        x: () => gsap.utils.random(-300, 300),
+        rotate: () => gsap.utils.random(-360, 360),
+        scale: () => gsap.utils.random(0, 2),
         opacity: 0
-    },//Estado inicial
-        {
-            y: -0,
-            opacity: 1,
-            ease: "power3.out",
-            duration: 1.5
-        }//Estado final
+    },
+    {
+        y: 0,
+        x: 0,
+        rotate: 0,
+        scale: 1,
+        opacity: 1,
+        duration: 1.3,
+        ease: "power3.out",
+        stagger: 0.02
+    }
     )
 }
 
@@ -47,14 +57,13 @@ export const animationNav = (listNav) => {
     gsap.fromTo(listNav.children, {
         y: -100,
         opacity: 0,
-         //podemos usar stagger si hay varios elementos para entrar uno por uno
     },//Estado inicial
         {
             y: -0,
             opacity: 1,
             ease: "power3.out",
             duration: 1,
-            stagger: 0.20
+            stagger: 0.20 //podemos usar stagger si hay varios elementos para entrar uno por uno
         }//Estado final
     )
 }
