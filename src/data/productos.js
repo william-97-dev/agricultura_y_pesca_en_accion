@@ -1,12 +1,12 @@
-import cImagen1 from "../assets/images/c-1.jpeg"
-import cImagen2 from "../assets/images/c-2.jpeg"
+import cImagen1 from "../assets/images/AtarrayaM8.webp"
+import cImagen2 from "../assets/images/AtarrayaM8.webp"
 
 export const productos = [
     {
         id: 1,
         imagen: cImagen1,
         titulo: "Atarraya maya 8",
-        descripcion: "Descripcion sobre la atarraya detallando todos sus compuestos"
+        descripcion: "Atarra ya mayo 8 para tilapia"
     },
     {
         id: 2,

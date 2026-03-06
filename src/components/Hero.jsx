@@ -1,12 +1,18 @@
 import React, {useRef, useEffect} from 'react'
 import { animationTitle } from '../../animation'
+import { animationPSpan } from '../../animation'
+import { animationButton } from '../../animation'
 import imagenHero from "../assets/images/ImagenHero.png"
 
 const Hero = () => {
     const boxRef = useRef(null)
+    const boxSpan = useRef(null)
+    const boxButton = useRef(null)
 
     useEffect(() => {
         animationTitle(boxRef.current)
+        animationPSpan(boxSpan.current)
+        animationButton(boxButton.current)
     }, [])
     return (
         <main id='inicio' className='flex items-center justify-center min-h-screen bg-cover bg-center'
@@ -17,11 +23,11 @@ const Hero = () => {
                 <h1 ref={boxRef} className='text-3xl font-bold mb-6 lg:text-6xl lg:mb-8 leading-tight text-[#BFA181]'>
                     Redes hechas por manos expertas, <span className='text-[#6ACFC7]'>resultados de confianza.</span>
                 </h1>
-                <p className='text-white/90 lg:text-lg max-w-2xl'>
+                <p ref={boxSpan} className='text-white/90 lg:text-lg max-w-2xl'>
                     Con más de 20 años de experiencia, fabricamos atarrayas resistentes
                     y trasmallos de calidad superior para una pesca confiable.
                 </p>
-                <button className='border-2 border-[#BFA181] text-[#6ACFC7] font-bold cursor-pointer px-6 py-4 rounded-md mt-4 lg:mt-6 hover:bg-[#BFA181] hover:text-black transition-colors duration-700 ease-in-out'>
+                <button ref={boxButton} className='border-2 border-[#BFA181] text-[#6ACFC7] font-bold cursor-pointer px-6 py-4 rounded-md mt-4 lg:mt-6 hover:bg-[#BFA181] hover:text-black transition-colors duration-700 ease-in-out'>
                     Ver catálogo
                 </button>
             </header>
