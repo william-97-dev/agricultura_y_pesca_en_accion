@@ -12,6 +12,6 @@ export const productos = [
         id: 2,
         imagen: cImagen2,
         titulo: "Atarraya maya 8",
-        descripcion: "Descripcion sobre la atarraya detallando todos sus compuestos"
+        descripcion: "Atarra ya mayo 8 para tilapia"
     }
 ]

@@ -2,7 +2,7 @@ import React from 'react'
 
 const CardProducto = ({imagen, titulo, descripcion}) => {
     return (
-        <article className='w-72 mb-4 p-4 rounded-md border shadow-[5px_5px_0px_0px_var(--primary-blue)]'>
+        <article className='w-72 mb-4 mt-4 p-4 rounded-md border shadow-[5px_5px_0px_0px_var(--primary-blue)]'>
             <img
                 src={imagen}
                 alt={titulo}
