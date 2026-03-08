@@ -11,9 +11,19 @@ import RedesSociales from './components/RedesSociales'
 import ButtonWhatsApp from './components/ButtonWhatsApp'
 import ButtonFlecha from './components/ButtonFlecha'
 import Footer from './components/Footer'
+import Aos from 'aos'
+import "aos/dist/aos.css"
+import { useEffect } from 'react'
 
 
 function App() {
+
+  useEffect(() => {
+    Aos.init({
+      duration: 1500,
+      once: true
+    })
+  },[])
 
   return (
     <>
