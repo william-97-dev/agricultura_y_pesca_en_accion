@@ -21,7 +21,8 @@ function App() {
   useEffect(() => {
     Aos.init({
       duration: 1500,
-      once: true
+      once: false,
+      mirror: true
     })
   },[])
 

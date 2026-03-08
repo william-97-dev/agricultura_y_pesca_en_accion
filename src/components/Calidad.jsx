@@ -15,7 +15,7 @@ const Calidad = () => {
                         para acompañarte en cada jornada de pesca.
                     </p>
                 </article>
-                <article data-aos="flip-left" className='w-full max-w-2xl bg-gray-200 backdrop-blur-md border-2 border-[#FFCC00] p-2 py-4 mb-4 rounded-md lg:py-10 lg:px-10'>
+                <article data-aos="zoom-in" className='w-full max-w-2xl bg-gray-200 backdrop-blur-md border-2 border-[#FFCC00] p-2 py-4 mb-4 rounded-md lg:py-10 lg:px-10'>
                     <img src={precision} alt="Icono de precision" className='bg-[#BFA181]/60 p-2 rounded-md mb-2' />
                     <h3 className='font-bold mb-2'>Malla de Precisión</h3>
                     <p>
