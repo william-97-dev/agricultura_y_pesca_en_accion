@@ -4,7 +4,7 @@ import { FaFacebook, FaTiktok, FaWhatsapp, FaYoutube } from "react-icons/fa"
 const RedesSociales = () => {
     return (
         <footer className='px-6 py-2 bg-[#BFA181] text-white lg:flex lg:justify-between lg:px-48 lg:py-28'>
-            <div className='lg:w-xl mb-4'>
+            <div data-aos="fade-up" className='lg:w-xl mb-4'>
                 <h4 className='font-bold text-[#01257D] lg:mb-4 lg:text-2xl'>Agricultura y Pesca en Acción</h4>
                 <p>
                     Maestro artesano con más de 20 años de experiencia en la
@@ -12,7 +12,7 @@ const RedesSociales = () => {
                     precisión y materiales de alta calidad.
                 </p>
             </div>
-            <div className='lg:leading-8 mb-4'>
+            <div data-aos="fade-up" className='lg:leading-8 mb-4'>
                 <h4 className='font-bold lg:mb-4 lg:text-2xl text-[#01257D]'>Navegación</h4>
                 <ul>
                     <a href="#inicio">
@@ -26,7 +26,7 @@ const RedesSociales = () => {
                     </a>
                 </ul>
             </div>
-            <div className='flex justify-between items-center lg:flex-col lg:text-4xl mb-4'>
+            <div data-aos="fade-up" className='flex justify-between items-center lg:flex-col lg:text-4xl mb-4'>
                 <h4 className='font-bold lg:text-2xl text-[#01257D]'>Redes Sociales</h4>
                 <div className='flex gap-4 text-3xl lg:text-4xl lg:mb-16'>
                     <a

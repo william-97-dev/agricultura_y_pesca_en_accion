@@ -5,7 +5,7 @@ const Galeria = () => {
     const loopImages = [...galeriaImagenes, ...galeriaImagenes]
     return (
         <section className='overflow-hidden py-10 mx-4 lg:mx-20'>
-            <div className="flex w-max animate-carousel gap-1">
+            <div data-aos="zoom-in" className="flex w-max animate-carousel gap-1">
                 {loopImages.map((img, i) => (
                     <div className='relative'>
                         <img
