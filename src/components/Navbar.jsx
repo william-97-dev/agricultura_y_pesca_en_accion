@@ -44,7 +44,7 @@ const Navbar = () => {
                             href="https://www.facebook.com/share/1CF9CB7cJa/"
                             target='_blank'
                             aria-label='Facebook'
-                            className='text-[#6ACFC7] hover:text-blue-600 transition-colors duration-700 ease-in-out'
+                            className='text-[#009B4D] hover:text-blue-600 transition-colors duration-700 ease-in-out'
                         >
                             <FaFacebook />
                         </a>
@@ -52,7 +52,7 @@ const Navbar = () => {
                             href="https://www.tiktok.com/@agricultura_pesca?_r=1&_t=ZS-945jrPH55IT"
                             target='_blank'
                             aria-label='TikTok'
-                            className='text-[#6ACFC7] hover:text-black transition-colors duration-700 ease-in-out'
+                            className='text-[#009B4D] hover:text-black transition-colors duration-700 ease-in-out'
                         >
                             <FaTiktok />
                         </a>
@@ -60,7 +60,7 @@ const Navbar = () => {
                             href="https://wa.me/50379913328"
                             target='_blank'
                             aria-label='WhatsApp'
-                            className='text-[#6ACFC7] hover:text-green-500 transition-colors duration-700 ease-in-out'
+                            className='text-[#009B4D] hover:text-green-500 transition-colors duration-700 ease-in-out'
                         >
                             <FaWhatsapp />
                         </a>
@@ -68,7 +68,7 @@ const Navbar = () => {
                             href="https://youtube.com/@agriculturaypesca-m3t?si=_rJnommRXs-O3K9S"
                             target='_blank'
                             aria-label='Youtube'
-                            className='text-[#6ACFC7] hover:text-red-600 transition-colors duration-700 ease-in-out'
+                            className='text-[#009B4D] hover:text-red-600 transition-colors duration-700 ease-in-out'
                         >
                             <FaYoutube />
                         </a>
