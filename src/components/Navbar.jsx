@@ -26,13 +26,14 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className='fixed flex items-center top-0 left-0 w-full z-50 h-14 lg:h-20 lg:max-w-6xl lg:left-1/2 lg:-translate-x-1/2 lg:top-4'>
+            <nav className='fixed bg-white/5 backdrop-blur-lg border-b border-white/10
+                shadow-[0_8px_32px_0_rgba(0,0,0,0.25)] lg:rounded-md flex items-center top-0 left-0 w-full z-50 h-14 lg:h-20 lg:max-w-6xl lg:left-1/2 lg:-translate-x-1/2 lg:top-4'>
                 <div className='w-full mx-auto flex justify-between items-center px-4 lg:h-20 lg:justify-between'>
                     <div ref={boxLog} className='bg-gray-300 rounded-full h-10 w-10 lg:h-16 lg:w-16 flex items-center justify-center lg:p-2'>
                         <img src={miLogo} alt="Logo de Agricultura y Pesca" className='h-5 lg:h-7' />
                     </div>
                     {/**MENU DESKTOP */}
-                    <div ref={boxRef} className='hidden lg:flex lg:items-center gap-8 font-medium lg:text-2xl text-[#6acfc7]'>
+                    <div ref={boxRef} className='hidden lg:flex lg:items-center gap-8 font-medium lg:text-2xl text-[#FFCC00]'>
                         <button onClick={() => handleScroll("inicio")} className='cursor-pointer'>Inicio</button>
                         <button onClick={() => handleScroll("catalogo")} className='cursor-pointer'>Catálogo</button>
                         <button onClick={() => handleScroll("envios")} className='cursor-pointer'>Envíos</button>
@@ -43,7 +44,7 @@ const Navbar = () => {
                             href="https://www.facebook.com/share/1CF9CB7cJa/"
                             target='_blank'
                             aria-label='Facebook'
-                            className='text-gray-300 hover:text-blue-600 transition-colors duration-700 ease-in-out'
+                            className='text-[#6ACFC7] hover:text-blue-600 transition-colors duration-700 ease-in-out'
                         >
                             <FaFacebook />
                         </a>
@@ -51,7 +52,7 @@ const Navbar = () => {
                             href="https://www.tiktok.com/@agricultura_pesca?_r=1&_t=ZS-945jrPH55IT"
                             target='_blank'
                             aria-label='TikTok'
-                            className='text-gray-300 hover:text-black transition-colors duration-700 ease-in-out'
+                            className='text-[#6ACFC7] hover:text-black transition-colors duration-700 ease-in-out'
                         >
                             <FaTiktok />
                         </a>
@@ -59,7 +60,7 @@ const Navbar = () => {
                             href="https://wa.me/50379913328"
                             target='_blank'
                             aria-label='WhatsApp'
-                            className='text-gray-300 hover:text-green-500 transition-colors duration-700 ease-in-out'
+                            className='text-[#6ACFC7] hover:text-green-500 transition-colors duration-700 ease-in-out'
                         >
                             <FaWhatsapp />
                         </a>
@@ -67,7 +68,7 @@ const Navbar = () => {
                             href="https://youtube.com/@agriculturaypesca-m3t?si=_rJnommRXs-O3K9S"
                             target='_blank'
                             aria-label='Youtube'
-                            className='text-gray-300 hover:text-red-600 transition-colors duration-700 ease-in-out'
+                            className='text-[#6ACFC7] hover:text-red-600 transition-colors duration-700 ease-in-out'
                         >
                             <FaYoutube />
                         </a>
